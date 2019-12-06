@@ -91,8 +91,9 @@ abstract class Payment
      */
     public function getCart()
     {
-        if (! $this->cart)
+        if (!$this->cart) {
             $this->setCart();
+        }
 
         return $this->cart;
     }
