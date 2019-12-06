@@ -20,5 +20,6 @@ yarn-error.log
 composer.lock
 yarn.lock
 package-lock.json
-yarn.lock
 /nbproject/private/
+.php_cs.cache
+storage/
